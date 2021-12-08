@@ -10,7 +10,7 @@ export default function BackgroundColorChanger({ backgroundColorValue }) {
     }
     return (
         <div>
-            <button onClick={() => handleBackgroundColorChange()}>Click me to Change to Blue</button>
+            <button onClick={() => handleBackgroundColorChange()}>Click me to Change to Dusk Color</button>
         </div>
     )
 }
