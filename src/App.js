@@ -9,7 +9,7 @@ function App() {
   const [backgroundColorValue, setBackgroundColorValue] = useState("blue")
   let names = ["matt", "nunny", "fido", "leeto", "Aragorn"]
   let namesAsH3 = names.map((name, index) => <h3 key={index}>{name}</h3>)
-  console.log(namesAsH3)
+
 
   return (
     <div id="nose">
